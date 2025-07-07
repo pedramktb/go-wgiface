@@ -32,7 +32,7 @@ func Test(t *testing.T) {
 	if err != nil {
 		panic(err)
 	}
-	defer container.Terminate(ctx)
+	defer func() { _ = container.Terminate(ctx) }()
 
 	exitCode, reader, err := container.Exec(ctx, []string{"go", "test"})
 	if err != nil {
