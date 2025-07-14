@@ -3,7 +3,7 @@ module github.com/pedramktb/go-wgiface
 go 1.24.4
 
 require (
-	github.com/docker/docker v28.3.1+incompatible
+	github.com/docker/docker v28.3.2+incompatible
 	github.com/stretchr/testify v1.10.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
 )
