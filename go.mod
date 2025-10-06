@@ -3,7 +3,7 @@ module github.com/pedramktb/go-wgiface
 go 1.24.4
 
 require (
-	github.com/docker/docker v28.3.1+incompatible
+	github.com/docker/docker v28.5.0+incompatible
 	github.com/stretchr/testify v1.10.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
 )
@@ -27,7 +27,6 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/josharian/native v1.1.0 // indirect
